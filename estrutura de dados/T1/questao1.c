@@ -15,9 +15,9 @@ int main(){
     salario *= 1.1;
   }
 
-  printf("Horas Trabalhadas: %d", horas);
-  printf("Valor da hora: %f", valor);
-  printf("Salário: %f", salario);
+  printf("Horas Trabalhadas: %d\n", horas);
+  printf("Valor da hora: %.2f\n", valor);
+  printf("Salário: %.2f\n", salario);
   
 
   return 0;
